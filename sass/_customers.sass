@@ -1,0 +1,39 @@
+.customers
+	padding: 80px 0 90px 0 
+	&__title
+		+regular
+		font-size: 24px
+		text-align: center
+		letter-spacing: 0.2px
+.slider
+	padding: 80px 0 85px 0 
+	width: 1000px
+	margin: 0 auto
+	&__item
+		text-align: center
+		&:focus
+			outline: none
+		img
+			margin: auto
+.slick-track 
+  display: flex
+.slick-track .slick-slide
+  display: flex
+  height: auto
+  align-items: center
+  justify-content: center
+.arrow
+	position: absolute
+	bottom: 105px
+	width: 14px
+	height: 26px
+	&:hover
+		cursor: pointer
+	&-right
+		right: -8.35%
+		background: url('../img/arrow-right.png') no-repeat center
+		background-size: 100%
+	&-left
+		left: -8.35%
+		background: url('../img/arrow-left.png') no-repeat center
+		background-size: 100%

@@ -1,0 +1,79 @@
+.main
+	background-color: $black
+	background-image: url('../img/main/fon.png')
+	background-size: cover
+	background-repeat: no-repeat
+	&-wrap
+		display: flex
+		padding: 168px 0 90px 0
+		&__left
+			color: $white
+			flex-basis: 50%
+		&__title
+			+regular
+			font-size: 48px
+			line-height: 1.23
+			margin: 0
+		&__subtitle
+			+light
+			font-size: 20px
+			margin-top: 30px
+		&__right
+			flex-basis: 50%
+			display: flex
+			justify-content: flex-end
+	&-advantages
+		display: flex
+		flex-direction: column
+		margin-top: 52px
+		&__item
+			display: flex
+			align-items: center
+			margin: 10.5px 0
+		&__img
+			min-width: 35px
+			height: 35px
+			border-radius: 50%
+			border: 1px solid #353637
+			margin-right: 25.5px
+			background-repeat: no-repeat
+			background-position: center
+			display: flex
+			justify-content: center
+			align-items: center
+			+light
+			&-1
+				font-size: 15.84px
+			&-2
+				font-size: 14.11px
+			&-3
+				background-image: url('../img/main/reload.png')
+				background-size: 15px
+			&-4
+				background-image: url('../img/main/location.png')
+				background-size: 19px
+		&__text
+			+light
+			font-size: 15px
+			width: 210px
+			line-height: 1.23
+	&-form
+		margin-top: 10px
+		width: 370px
+		height: 429px
+		background-color: $white
+		text-align: center
+		padding: 1px
+		&__title
+			font-size: 18px
+			line-height: 1.23
+			+regular
+			text-align: center
+			width: 290px
+			margin: 35px auto 18px auto
+		&__subtitle
+			+bold
+		&__input
+			margin: 7.5px auto
+		&__button
+			margin: 13px auto

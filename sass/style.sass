@@ -1,0 +1,52 @@
+@import 'fonts'
+@import 'var'
+@import 'mixins'
+@import 'normalize'
+@import 'inteface'
+@import 'header'
+@import 'menu-mobil'
+@import 'main'
+@import 'product'
+@import 'portfolio'
+@import 'avantages'
+@import 'customers'
+@import 'map'
+@import 'footer'
+@import 'modal'
+@import 'modal-thank'
+
+*, *:before, *:after
+	box-sizing: border-box
+html
+	overflow-x: hidden
+body
+	overflow-x: hidden
+	+light
+	color: $black
+.container
+	width: 1170px
+	margin: 0 auto
+.title
+	font-size: 36px
+	+regular
+	text-align: center
+	margin-top: 84px
+	&:after
+		content: ''
+		border-bottom: 2px solid $blue
+		position: relative
+		display: block
+		margin: 21px auto 39px auto
+		width: 31px
+.subtitle
+	font-size: 20px
+	+light
+	text-align: center
+	margin-bottom: 65px
+	letter-spacing: 0.1px
+
+img
+	max-width: 100%
+
+
+@import 'media'

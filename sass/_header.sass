@@ -1,0 +1,59 @@
+.menu
+	&-desctop
+		background-color: #e9e9e9
+		height: 54px
+		width: 100%
+		position: absolute
+		top: 0
+		left: 0
+		display: flex
+		align-items: center
+	&-wrap
+		display: flex
+		justify-content: space-between
+		width: 792px
+		&__tab
+			+regular
+			font-size: 14.5px
+			color: $black
+			a
+				+regular
+				text-decoration-color: #adadad
+				color: $black
+			a:hover
+				text-decoration-color: #adadad * 0.3
+				color: #666
+.header
+	&-menu
+		display: flex
+		justify-content: space-between
+		align-items: center
+		padding: 0
+		margin: 0
+	&-contacts
+		width: 178px
+		height: 40px
+		display: flex
+		flex-direction: column
+		text-align: right
+		&__tel
+			text-decoration: none
+			+bold
+			font-size: 17.5px
+			color: $black
+			&:visited
+				color: $black
+		&__text
+			margin-right: 3px
+			font-size: 14px
+			+regular
+			color: $blue
+			text-decoration-color: #b6dcde
+			&:visited
+				color: $blue
+			&:hover
+				color: $blue * 0.3
+				text-decoration-color: $blue * 0.3
+
+
+

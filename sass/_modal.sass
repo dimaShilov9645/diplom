@@ -1,0 +1,30 @@
+.modal
+	display: none
+	position: fixed
+	width: 100%
+	height: 100%
+	background-color: rgba(#000, 0.52)
+	left: 0
+	top: 0
+	z-index: 99
+	&-form
+		margin: auto
+		width: 500px
+		height: 450px
+		&__title
+			font-size: 22px
+			+bold
+		&__input
+			width: 350px
+		&__button
+			width: 350px
+	&_visible
+		display: flex
+	&__close
+		position: relative
+		text-align: right
+		margin: 15px
+		&:hover
+			cursor: pointer
+		&:focus
+			outline: none

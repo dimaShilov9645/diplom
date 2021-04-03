@@ -1,0 +1,45 @@
+.footer
+	height: 145px
+	background-color: #191919
+.contacts
+	display: flex
+	align-items: center
+	justify-content: space-between
+	height: 145px
+	padding: 0 2px
+	&-left
+		display: flex
+		align-items: center
+		&__img
+			width: 14px
+			height: 18px
+		&__text
+			+light
+			font-size: 13px
+			margin-left: 21px
+			color: $white
+	&-right
+		display: flex
+		flex-direction: column
+		text-align: right
+		height: 50px
+		&__tel
+			color: $white
+			text-decoration: none
+			+bold
+			font-size: 17.5px
+			&:visited
+				color: $white
+		&__text
+			margin-top: 8px
+			font-size: 13px
+			+regular
+			color: #21afb6
+			text-decoration-color: #1b4143
+			text-decoration: underline
+			&:visited
+				color: #21afb6
+			&:hover
+				color: $blue * 0.3
+				text-decoration-color: $blue * 0.3
+				cursor: pointer
